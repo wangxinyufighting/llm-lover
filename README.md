@@ -25,7 +25,7 @@ The feature data is based on **GSM8K** and **Mistral-7B-Instruct-v0.3**.  We ran
 sh train.sh
 ```
 
-## Acknowledge 
+## Acknowledgement
 
 CCS: https://github.com/collin-burns/discovering_latent_knowledge
 
