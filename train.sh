@@ -1,0 +1,16 @@
+ CUDA_VISIBLE_DEVICES=5 python main.py \
+ --model_name Mistral-7B-Instruct-v0.3 \
+ --max_new_tokens 512 \
+ --dataset_name gsm8k\
+ --encode_format qa  \
+ --nepochs 5000 \
+ --lr 1e-5 \
+ --layer -1 \
+ --train_num_examples 200 \
+ --ntries 3\
+ --hs_train_file_path ./data/Mistral-7B-Instruct-v0.3/hs_train__model_name_Mistral-7B-Instruct-v0.3__dataset_name_gsm8k__train_num_examples_7473__cot_n_branches_10__max_new_tokens_512__encode_format_qa_layer_-1.npy  \
+ --model_answer_train_file_path ./data/Mistral-7B-Instruct-v0.3/answers_model_train__model_name_Mistral-7B-Instruct-v0.3__dataset_name_gsm8k__train_num_examples_7473__cot_n_branches_10__max_new_tokens_512__encode_format_qa__all_layers_True.json \
+ --gt_answer_train_file_path ./data/Mistral-7B-Instruct-v0.3/answers_gt_train__model_name_Mistral-7B-Instruct-v0.3__dataset_name_gsm8k__train_num_examples_7473__cot_n_branches_10__max_new_tokens_512__encode_format_qa__all_layers_True.json \
+ --hs_test_file_path ./data/Mistral-7B-Instruct-v0.3/hs_qa_test_Mistral-7B-Instruct-v0.3/hs_test__model_name_Mistral-7B-Instruct-v0.3__dataset_name_gsm8k__test_num_examples_1319__cot_n_branches_10__max_new_tokens_512__encode_format_qa_layer_-1.npy \
+ --gt_answer_test_file_path ./data/Mistral-7B-Instruct-v0.3/hs_qa_test_Mistral-7B-Instruct-v0.3/answers_gt_test__model_name_Mistral-7B-Instruct-v0.3__dataset_name_gsm8k__test_num_examples_1319__cot_n_branches_10__max_new_tokens_512__encode_format_qa__all_layers_True.json \
+ --model_answer_test_file_path ./data/Mistral-7B-Instruct-v0.3/hs_qa_test_Mistral-7B-Instruct-v0.3/answers_model_test__model_name_Mistral-7B-Instruct-v0.3__dataset_name_gsm8k__test_num_examples_1319__cot_n_branches_10__max_new_tokens_512__encode_format_qa__all_layers_True.json 
