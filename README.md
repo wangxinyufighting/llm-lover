@@ -1,4 +1,4 @@
-# llm_lover
+# Logic LLM: Logic-Regularized Verifier Elicits Reasoning from LLMs
 
 This project is the implementation of [**Logic-Regularized Verifier Elicits Reasoning from LLMs**](https://aclanthology.org/2025.acl-long.1567/).
 
