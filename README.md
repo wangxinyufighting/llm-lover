@@ -16,7 +16,7 @@ The feature has a shape of (num_data, N, 2, d, num_layers), where:
 - d: Feature dimension
 - num_layers: Number of LLM layers
 
-We provide some feature data ([**Google Drive**](https://drive.google.com/drive/folders/1h-C7RgEC4raoanUxSmCeV598OBAKBNve?usp=sharing)) for running the code.  
+We provide some feature data ([**Google Drive**](https://drive.google.com/drive/folders/1SVX9g-3AhJxu83u-Be2R8yCjOhlbQiIs)) for running the code.  
 
 The feature data is based on **GSM8K** and **Mistral-7B-Instruct-v0.3**.  We randomly selected **1,500 samples** from the GSM8K training set and the full **1,319 samples** from the test set. Only the **last-layer features** were extracted.  
 
